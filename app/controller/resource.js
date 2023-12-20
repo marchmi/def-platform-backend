@@ -72,6 +72,11 @@ class ResourceController extends Controller {
       const childNode = {
         resourceName: child.resourceName,
         resourceCode: child.resourceCode,
+        uuid: child.uuid,
+        uris: child.uris,
+        remark: child.remark,
+        type: child.type,
+        parentResource: child.parentResource,
         children: [],
       };
 

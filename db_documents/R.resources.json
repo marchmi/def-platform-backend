@@ -1,0 +1,435 @@
+[{
+  "_id": {
+    "$oid": "658193d53dfe615820fb3eca"
+  },
+  "uuid": "78234701-a496-46f1-b9d7-90e7197b2fd3",
+  "resourceName": "租户管理平台",
+  "resourceCode": "tmp_root",
+  "parentResource": "tmp",
+  "type": "MENU",
+  "uris": [],
+  "remark": "",
+  "createdAt": {
+    "$date": "2023-12-19T13:00:05.205Z"
+  },
+  "updatedAt": {
+    "$date": "2023-12-19T13:00:05.205Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6582df6ac1b595735d6f2ae7"
+  },
+  "uuid": "910110fb-4fc1-44c2-ac63-165eeb5dbd08",
+  "resourceName": "运营平台",
+  "resourceCode": "omp_root",
+  "parentResource": "omp",
+  "type": "MENU",
+  "uris": [
+    "omp_api_system_enum"
+  ],
+  "remark": "运营管理系统备注",
+  "createdAt": {
+    "$date": "2023-12-20T12:34:50.385Z"
+  },
+  "updatedAt": {
+    "$date": "2023-12-20T13:53:38.543Z"
+  },
+  "__v": 0,
+  "children": [
+    {
+      "resourceName": "工作台",
+      "resourceCode": "omp_dashboard",
+      "uuid": "ff1a5d3d-7a78-4d5b-a39d-22b77c19e174",
+      "uris": [],
+      "remark": "首页工作台",
+      "type": "MENU",
+      "parentResource": "omp_root",
+      "children": [
+        {
+          "resourceName": "查看",
+          "resourceCode": "omp_dashboard_list",
+          "uuid": "30a0b831-d7f7-4d0c-98fa-5e5b0a7d168c",
+          "uris": [],
+          "remark": "",
+          "type": "BUTTON",
+          "parentResource": "omp_dashboard",
+          "children": []
+        }
+      ]
+    },
+    {
+      "resourceName": "组织权限中心",
+      "resourceCode": "omp_system",
+      "uuid": "66347e43-e6f6-4afe-83b1-215daa6180c1",
+      "uris": [],
+      "remark": "",
+      "type": "MENU",
+      "parentResource": "omp_root",
+      "children": [
+        {
+          "resourceName": "系统管理",
+          "resourceCode": "omp_system_sysManage",
+          "uuid": "4814ef2e-cef2-41f6-899d-b517caa196d6",
+          "uris": [
+            "omp_api_system_list",
+            "omp_api_system_detail"
+          ],
+          "remark": "",
+          "type": "MENU",
+          "parentResource": "omp_system",
+          "children": [
+            {
+              "resourceName": "查看",
+              "resourceCode": "omp_system_sysManage_list",
+              "uuid": "35f2b9d1-c0d2-47ee-a984-26e024cdfe48",
+              "uris": [],
+              "remark": "",
+              "type": "BUTTON",
+              "parentResource": "omp_system_sysManage",
+              "children": []
+            },
+            {
+              "resourceName": "新增",
+              "resourceCode": "omp_system_sysManage_create",
+              "uuid": "8f1cf23e-7dc4-48bb-a634-388e859d9e93",
+              "uris": [
+                "omp_api_system_create"
+              ],
+              "remark": "",
+              "type": "BUTTON",
+              "parentResource": "omp_system_sysManage",
+              "children": []
+            },
+            {
+              "resourceName": "编辑",
+              "resourceCode": "omp_system_sysManage_edit",
+              "uuid": "33bb2cbe-fef9-4dcb-aa54-aa0eb052a901",
+              "uris": [
+                "omp_api_system_update"
+              ],
+              "remark": "",
+              "type": "BUTTON",
+              "parentResource": "omp_system_sysManage",
+              "children": []
+            },
+            {
+              "resourceName": "删除",
+              "resourceCode": "omp_system_sysManage_delete",
+              "uuid": "9f8f8cf0-18f8-4e4c-aa84-9b04694c0e8a",
+              "uris": [
+                "omp_api_system_delete"
+              ],
+              "remark": "",
+              "type": "BUTTON",
+              "parentResource": "omp_system_sysManage",
+              "children": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6582e1f6c1b595735d6f2b1d"
+  },
+  "uuid": "ff1a5d3d-7a78-4d5b-a39d-22b77c19e174",
+  "resourceName": "工作台",
+  "resourceCode": "omp_dashboard",
+  "parentResource": "omp_root",
+  "type": "MENU",
+  "uris": [],
+  "remark": "首页工作台",
+  "createdAt": {
+    "$date": "2023-12-20T12:45:42.106Z"
+  },
+  "updatedAt": {
+    "$date": "2023-12-20T12:45:42.106Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6582e48bc1b595735d6f2b36"
+  },
+  "uuid": "66347e43-e6f6-4afe-83b1-215daa6180c1",
+  "resourceName": "组织权限中心",
+  "resourceCode": "omp_system",
+  "parentResource": "omp_root",
+  "type": "MENU",
+  "uris": [],
+  "remark": "",
+  "createdAt": {
+    "$date": "2023-12-20T12:56:43.097Z"
+  },
+  "updatedAt": {
+    "$date": "2023-12-20T12:56:43.097Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6582eb2e4a022625996a9023"
+  },
+  "uuid": "4814ef2e-cef2-41f6-899d-b517caa196d6",
+  "resourceName": "系统管理",
+  "resourceCode": "omp_system_sysManage",
+  "parentResource": "omp_system",
+  "type": "MENU",
+  "uris": [
+    "omp_api_system_list",
+    "omp_api_system_detail"
+  ],
+  "remark": "",
+  "createdAt": {
+    "$date": "2023-12-20T13:25:02.252Z"
+  },
+  "updatedAt": {
+    "$date": "2023-12-20T13:52:45.175Z"
+  },
+  "__v": 0,
+  "children": [
+    {
+      "resourceName": "查看",
+      "resourceCode": "omp_system_sysManage_list",
+      "uuid": "35f2b9d1-c0d2-47ee-a984-26e024cdfe48",
+      "uris": [],
+      "remark": "",
+      "type": "BUTTON",
+      "parentResource": "omp_system_sysManage",
+      "children": []
+    },
+    {
+      "resourceName": "新增",
+      "resourceCode": "omp_system_sysManage_create",
+      "uuid": "8f1cf23e-7dc4-48bb-a634-388e859d9e93",
+      "uris": [],
+      "remark": "",
+      "type": "BUTTON",
+      "parentResource": "omp_system_sysManage",
+      "children": []
+    },
+    {
+      "resourceName": "编辑",
+      "resourceCode": "omp_system_sysManage_edit",
+      "uuid": "33bb2cbe-fef9-4dcb-aa54-aa0eb052a901",
+      "uris": [],
+      "remark": "",
+      "type": "BUTTON",
+      "parentResource": "omp_system_sysManage",
+      "children": []
+    },
+    {
+      "resourceName": "删除",
+      "resourceCode": "omp_system_sysManage_delete",
+      "uuid": "9f8f8cf0-18f8-4e4c-aa84-9b04694c0e8a",
+      "uris": [],
+      "remark": "",
+      "type": "BUTTON",
+      "parentResource": "omp_system_sysManage",
+      "children": []
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6582eb904a022625996a9036"
+  },
+  "uuid": "30a0b831-d7f7-4d0c-98fa-5e5b0a7d168c",
+  "resourceName": "查看",
+  "resourceCode": "omp_dashboard_list",
+  "parentResource": "omp_dashboard",
+  "type": "BUTTON",
+  "uris": [],
+  "remark": "",
+  "createdAt": {
+    "$date": "2023-12-20T13:26:40.281Z"
+  },
+  "updatedAt": {
+    "$date": "2023-12-20T13:26:40.281Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6582f1444a022625996a9056"
+  },
+  "uuid": "35f2b9d1-c0d2-47ee-a984-26e024cdfe48",
+  "resourceName": "查看",
+  "resourceCode": "omp_system_sysManage_list",
+  "parentResource": "omp_system_sysManage",
+  "type": "BUTTON",
+  "uris": [],
+  "remark": "",
+  "createdAt": {
+    "$date": "2023-12-20T13:51:00.730Z"
+  },
+  "updatedAt": {
+    "$date": "2023-12-20T13:51:00.730Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6582f1604a022625996a905f"
+  },
+  "uuid": "8f1cf23e-7dc4-48bb-a634-388e859d9e93",
+  "resourceName": "新增",
+  "resourceCode": "omp_system_sysManage_create",
+  "parentResource": "omp_system_sysManage",
+  "type": "BUTTON",
+  "uris": [
+    "omp_api_system_create"
+  ],
+  "remark": "",
+  "createdAt": {
+    "$date": "2023-12-20T13:51:28.059Z"
+  },
+  "updatedAt": {
+    "$date": "2023-12-20T13:52:56.577Z"
+  },
+  "__v": 0,
+  "children": []
+},
+{
+  "_id": {
+    "$oid": "6582f1724a022625996a9069"
+  },
+  "uuid": "33bb2cbe-fef9-4dcb-aa54-aa0eb052a901",
+  "resourceName": "编辑",
+  "resourceCode": "omp_system_sysManage_edit",
+  "parentResource": "omp_system_sysManage",
+  "type": "BUTTON",
+  "uris": [
+    "omp_api_system_update"
+  ],
+  "remark": "",
+  "createdAt": {
+    "$date": "2023-12-20T13:51:46.965Z"
+  },
+  "updatedAt": {
+    "$date": "2023-12-20T13:53:07.714Z"
+  },
+  "__v": 0,
+  "children": []
+},
+{
+  "_id": {
+    "$oid": "6582f1874a022625996a9074"
+  },
+  "uuid": "9f8f8cf0-18f8-4e4c-aa84-9b04694c0e8a",
+  "resourceName": "删除",
+  "resourceCode": "omp_system_sysManage_delete",
+  "parentResource": "omp_system_sysManage",
+  "type": "BUTTON",
+  "uris": [
+    "omp_api_system_delete"
+  ],
+  "remark": "",
+  "createdAt": {
+    "$date": "2023-12-20T13:52:07.846Z"
+  },
+  "updatedAt": {
+    "$date": "2023-12-20T13:53:23.101Z"
+  },
+  "__v": 0,
+  "children": []
+},
+{
+  "_id": {
+    "$oid": "6582f2174a022625996a90c5"
+  },
+  "uuid": "8f477ea6-1d00-4353-8f04-e18f93c66947",
+  "resourceName": "接口资源",
+  "resourceCode": "omp_system_interfaceManage",
+  "parentResource": "omp_system",
+  "type": "MENU",
+  "uris": [],
+  "remark": "",
+  "createdAt": {
+    "$date": "2023-12-20T13:54:31.682Z"
+  },
+  "updatedAt": {
+    "$date": "2023-12-20T13:54:31.682Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6582f2464a022625996a90d2"
+  },
+  "uuid": "2eb8510f-7b27-4681-bc20-bcb77c8f1111",
+  "resourceName": "查看",
+  "resourceCode": "omp_system_interfaceManage_list",
+  "parentResource": "omp_system_interfaceManage",
+  "type": "BUTTON",
+  "uris": [],
+  "remark": "",
+  "createdAt": {
+    "$date": "2023-12-20T13:55:18.059Z"
+  },
+  "updatedAt": {
+    "$date": "2023-12-20T13:55:18.059Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6582f25a4a022625996a90e0"
+  },
+  "uuid": "45ca3fbe-28aa-4c29-b0de-6ff5f583119b",
+  "resourceName": "新增",
+  "resourceCode": "omp_system_interfaceManage_create",
+  "parentResource": "omp_system_interfaceManage",
+  "type": "BUTTON",
+  "uris": [],
+  "remark": "",
+  "createdAt": {
+    "$date": "2023-12-20T13:55:38.234Z"
+  },
+  "updatedAt": {
+    "$date": "2023-12-20T13:55:38.234Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6582f26a4a022625996a90ef"
+  },
+  "uuid": "d61ea61d-6ce7-46f9-a9be-d35611b759e1",
+  "resourceName": "编辑",
+  "resourceCode": "omp_system_interfaceManage_edit",
+  "parentResource": "omp_system_interfaceManage",
+  "type": "BUTTON",
+  "uris": [],
+  "remark": "",
+  "createdAt": {
+    "$date": "2023-12-20T13:55:54.674Z"
+  },
+  "updatedAt": {
+    "$date": "2023-12-20T13:55:54.674Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6582f2b74a022625996a90ff"
+  },
+  "uuid": "4525b425-1e3f-4f0a-94b2-d15541b74997",
+  "resourceName": "删除",
+  "resourceCode": "omp_system_interfaceManage_delete",
+  "parentResource": "omp_system_interfaceManage",
+  "type": "BUTTON",
+  "uris": [],
+  "remark": "",
+  "createdAt": {
+    "$date": "2023-12-20T13:57:11.505Z"
+  },
+  "updatedAt": {
+    "$date": "2023-12-20T13:57:11.505Z"
+  },
+  "__v": 0
+}]

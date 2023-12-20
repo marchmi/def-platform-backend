@@ -1,0 +1,114 @@
+[{
+  "_id": {
+    "$oid": "65759664668e7ca1edfe8216"
+  },
+  "uuid": "0fd267f2-bd0c-4659-95f6-cd46cde23a86",
+  "interfaceName": "获取系统数据列表",
+  "uri": "omp_api_system_list",
+  "url": "/api/system",
+  "type": "GET",
+  "sysCode": "omp",
+  "remark": "",
+  "createdAt": {
+    "$date": "2023-12-10T10:43:48.214Z"
+  },
+  "updatedAt": {
+    "$date": "2023-12-11T12:34:50.004Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "657598de668e7ca1edfe821a"
+  },
+  "uuid": "1869e182-7fec-44e9-8880-bd4630cbf007",
+  "interfaceName": "新增系统数据",
+  "uri": "omp_api_system_create",
+  "url": "/api/system",
+  "type": "POST",
+  "sysCode": "omp",
+  "remark": "",
+  "createdAt": {
+    "$date": "2023-12-10T10:54:22.568Z"
+  },
+  "updatedAt": {
+    "$date": "2023-12-10T11:04:09.650Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65759a8c668e7ca1edfe821e"
+  },
+  "uuid": "96e3b2b4-d2c5-4c7f-893b-0bb983cc47d6",
+  "interfaceName": "系统数据详情",
+  "uri": "omp_api_system_detail",
+  "url": "/api/system/**",
+  "type": "GET",
+  "sysCode": "omp",
+  "remark": "",
+  "createdAt": {
+    "$date": "2023-12-10T11:01:32.195Z"
+  },
+  "updatedAt": {
+    "$date": "2023-12-10T11:04:25.675Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65759ad2668e7ca1edfe8222"
+  },
+  "uuid": "2b0dbd84-b7b9-4607-ac17-1f8fc0d87a44",
+  "interfaceName": "系统数据更新",
+  "uri": "omp_api_system_update",
+  "url": "/api/system/**",
+  "type": "PUT",
+  "sysCode": "omp",
+  "remark": "",
+  "createdAt": {
+    "$date": "2023-12-10T11:02:42.646Z"
+  },
+  "updatedAt": {
+    "$date": "2023-12-10T11:04:35.413Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65759b07668e7ca1edfe8228"
+  },
+  "uuid": "74e1aa08-03f8-4f58-b4f0-4fe06dbe1548",
+  "interfaceName": "系统数据删除",
+  "uri": "omp_api_system_delete",
+  "url": "/api/system/**",
+  "type": "DELETE",
+  "sysCode": "omp",
+  "remark": "",
+  "createdAt": {
+    "$date": "2023-12-10T11:03:35.122Z"
+  },
+  "updatedAt": {
+    "$date": "2023-12-10T11:04:50.082Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65759bb7668e7ca1edfe823e"
+  },
+  "uuid": "8b3727e0-b3bb-49f9-819e-af7a9775926b",
+  "interfaceName": "系统数据枚举",
+  "uri": "omp_api_system_enum",
+  "url": "/api/system/enum",
+  "type": "GET",
+  "sysCode": "omp",
+  "remark": "",
+  "createdAt": {
+    "$date": "2023-12-10T11:06:31.565Z"
+  },
+  "updatedAt": {
+    "$date": "2023-12-10T11:06:31.565Z"
+  },
+  "__v": 0
+}]
