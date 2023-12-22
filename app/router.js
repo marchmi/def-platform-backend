@@ -15,4 +15,5 @@ module.exports = app => {
   require('./router/system')(app);
   require('./router/interface')(app);
   require('./router/resource')(app);
+  require('./router/dict')(app);
 };
