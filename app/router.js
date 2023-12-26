@@ -16,4 +16,5 @@ module.exports = app => {
   require('./router/interface')(app);
   require('./router/resource')(app);
   require('./router/dict')(app);
+  require('./router/role')(app);
 };
