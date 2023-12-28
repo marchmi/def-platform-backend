@@ -17,4 +17,5 @@ module.exports = app => {
   require('./router/resource')(app);
   require('./router/dict')(app);
   require('./router/role')(app);
+  require('./router/account')(app);
 };
